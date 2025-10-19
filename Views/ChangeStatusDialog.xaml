@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.Views.ChangeStatusDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Views"
+        mc:Ignorable="d"
+        Title="ChangeStatusDialog" Height="270" Width="300">
+
+    <StackPanel>
+        <TextBlock Text="Select the new status for the task:" Margin="10"/>
+        <RadioButton Content="In Progress" GroupName="Statues" Tag="InProgress" Margin="10"/>
+        <RadioButton Content="Complete" GroupName="Statues" Tag="Complete" Margin="10"/>
+        <Button Content="OK" Click="OkButton_Click" Margin="10"/>
+        <Button Content="Cancel" Click="CancelButton_Click" Margin="10"/>
+    </StackPanel>
+
+</Window>

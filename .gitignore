@@ -1,0 +1,30 @@
+# Fichiers binaires et dossiers de build
+bin/
+obj/
+Debug/
+Release/
+
+# Fichiers utilisateur
+*.user
+*.suo
+
+# Dossiers Visual Studio
+.vs/
+.vscode/
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Packages NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Fichiers générés par Windows
+Thumbs.db
+Desktop.ini
+
